@@ -19,7 +19,7 @@ public class CORSFilter implements Filter {
 	public void doFilter(ServletRequest req, ServletResponse res, FilterChain chain)
 			throws IOException, ServletException {
 		if(logger.isDebugEnabled()) {
-			logger.debug("Filtering on");
+			logger.debug("Filtering on"); 
 		}
 		
 		
